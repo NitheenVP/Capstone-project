@@ -1,7 +1,8 @@
-version: '3.8'
+version: '3'
 
 services:
-    reactapp:
-      image:  ${REPO_NAME}/${IMAGE_NAME}:${IMAGE_TAG}
-      ports:
-        - "80:80"
+  web:
+    build: .
+    ports:
+      - "80:80"
+
