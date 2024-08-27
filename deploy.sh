@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker-compose dowm || true
+docker-compose down || true
 docker-compose up -d
